@@ -5,6 +5,7 @@ slug: manual
 
 Click **[Preferences] -> [AI App]**, choose **[ADAS]**, you can see the **[Rolling Stop]** Alarm:
 <img src="/streamax_wiki/assets/stop1.png" width="70%" />
+<img src={require('@site/static/assets/stop1.png').default} width="70%" />
 
 ## Alarm Type
 The difference between selecting "Alarm" and "Event" as the alarm type is explained below:
