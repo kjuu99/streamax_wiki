@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 slug: manual
 ---
 
 Click **[Preferences] -> [AI App]**, choose **[ADAS]**, you can see the **[Rolling Stop]** Alarm:
-<img src="assets/stop1.png" width="70%" />
+<img src="/streamax_wiki/assets/stop1.png" width="70%" />
 
 ## Alarm Type
 The difference between selecting "Alarm" and "Event" as the alarm type is explained below:
@@ -17,7 +17,7 @@ The difference between selecting "Alarm" and "Event" as the alarm type is explai
 
 ## Trigger
 Click **[Trigger] -> [Setup]**:
-<img src="assets/stop2.png" width="50%" /> <br/><br/>
+<img src="/streamax_wiki/assets/stop2.png" width="50%" /> <br/><br/>
 
 | Parameter  | Description |
 | :--- | :--- |
@@ -27,10 +27,10 @@ Click **[Trigger] -> [Setup]**:
 | **Do not refresh the alarm timer** | By default, this option is unchecked, meaning that any multiple rolling stop alarms occurring within a certain time frame (effective time) will be treated as the same alarm, and the effective time will be reset accordingly.<br/>When checked, if multiple alarms of the same type occur within the same time frame, they will still be considered part of the same alarm. However, the effective time will not be reset, meaning that if the total duration of the alarm exceeds the effective time, the alarm will end, and its duration will be recorded as the effective time. After the effective time, a new alarm will be recorded, starting from when the previous alarm ended. |
 
 
-When the ADAS camera detects the stop sign,  <img src="assets/stop4.png" width="30" /> will appear on the R-Watch in full screen without blinking until the detection ends.
+When the ADAS camera detects the stop sign,  <img src="/streamax_wiki/assets/stop4.png" width="30" /> will appear on the R-Watch in full screen without blinking until the detection ends.
 
 ## Linkage
-<img src="assets/stop3.png" width="50%" /> <br/><br/>
+<img src="/streamax_wiki/assets/stop3.png" width="50%" /> <br/><br/>
 
 | Parameter  | Description |
 | :--- | :--- |
@@ -43,7 +43,7 @@ When the ADAS camera detects the stop sign,  <img src="assets/stop4.png" width="
 
 
 ## Alarm Capture
-<img src="assets/stop5.png" width="50%" /> <br/><br/>
+<img src="/streamax_wiki/assets/stop5.png" width="50%" /> <br/><br/>
 
 | Parameter  | Description |
 | :--- | :--- |
